@@ -20,9 +20,14 @@ p,
 ul,
 ol,
 li,
-blockquote {
+blockquote,
+figure {
   margin: 0;
   padding: 0;
+}
+
+ul, ol {
+  list-style: none;
 }
 
 a {
@@ -36,8 +41,4 @@ img {
 
 button {
   font: inherit;
-}
-
-html {
-  scroll-behavior: smooth;
 }
